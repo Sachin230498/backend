@@ -1,6 +1,6 @@
 import express from "express";
 import Connection from "./config/ConnectDB.js";
-import router from "./routes/user.routes.js";
+import router from "./routes/userroutes.js";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
 
