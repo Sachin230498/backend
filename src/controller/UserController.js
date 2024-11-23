@@ -7,6 +7,8 @@ const GetData = (req, res) => {
   res.send("getting it");
 };
 
+
+
 const Data = (req, res) => {
   res.send("getting DATA");
 };

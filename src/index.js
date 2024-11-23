@@ -13,6 +13,10 @@ app.use(bodyParser.json())
 
 Connection(process.env.Mongo_url);
 
+app.get("/", (req,res)=>{
+   res.send("started")
+})
+
 
 app.use("/user", router);
 
